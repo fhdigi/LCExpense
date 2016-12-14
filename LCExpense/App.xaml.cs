@@ -8,7 +8,7 @@ namespace LCExpense
 		{
 			InitializeComponent();
 
-			MainPage = new LCExpensePage();
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart()
